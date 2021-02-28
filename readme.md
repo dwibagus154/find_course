@@ -11,11 +11,13 @@
 
 
 ## Brief Description
-Pada tugas kali ini, , saya diminta membuat aplikasi sederhana yang dapat menyusun
-rencana pengambilan kuliah, dengan memanfaatkan algoritma Decrease and Conquer. Penyusunan
-Rencana Kuliah diimplementasikan dengan menggunakan pendekatan Topological Sorting. Berikut
-akan dijelaskan tugas yang dikerjakan secara detail.
-
+Pada tugas kali ini, , mahasiswa diminta membuat aplikasi sederhana yang dapat menyusun rencana pengambilan kuliah, dengan memanfaatkan algoritma Decrease and Conquer. Penyusunan Rencana Kuliah diimplementasikan dengan menggunakan pendekatan Topological Sorting. 
+Pada persoalan Topological Sort, penyelesaian dilakukan dengan menggunakan varian decrease by a variable size dimana ukuran instant persoalan direduksi bervariasi pada setiap iterasi algoritma. Penulis memberikan nama program topological sort ini dengan nama Find Course App. Adapun algoritma topological sort yang diimplementasikan melalui tahap-tahap sebagai berikut
+- baca masukan file input txt dan menaruhnya dalam array 2 dimensi
+- mencari pelajaran yang tidak memiliki prasyarat
+- mereduksi pelajaran tersebut di semua anggota array 2 dimensi 
+- lakukan berulang kali hingga array 2 dimensi kosong 
+- kasus khusus ketika tidak bisa diselesaikan dan array masih tersisa ketika telah 8 iterasi. 
 
 
 ## Instalasi Python
@@ -27,18 +29,17 @@ akan dijelaskan tugas yang dikerjakan secara detail.
 ## Clone Repository
 1. Buka terminal cmder atau gitbash 
 2. Pilih directiory tempat anda ingin menyimpan code 
-3. ketikkan git clone https://github.com/dwibagus154/find_course.git
+3. ketikkan git clone https://github.com/dwibagus154/find_course.git 
 4. ketikkaan cd find_course
 5. buka folder ini di text editor kesayangan anda (cara cepat code .)
 
 
-
 ## How to Use
-1. Setelah buka folder find_course (pastikan folder yang anda buka memiliki 4 folder didalamnya yaitu bin, doc, src, dan test)
+1. Setelah buka folder find_course (pastikan folder yang anda buka memiliki 4 folder didalamnya yaitu bin, doc, src, dan test. Atau hanya 3 folder jika di clone dari github. Karena folder bin tidak memiliki file)
 2. masuk ke folder src
-3. lalu buka file tucil.py
+3. lalu buka file 13519057.py
 4. jalankan program 
-5. untuk memvariasikannya, ganti angka 6 pada file_tucil = open("./test/test6.txt", "r") (line 17) dengan angka 1-8
+5. untuk memvariasikannya, ganti angka 1 pada file_tucil = open("./test/test1.txt", "r") (line 17) dengan angka 1-8
 6. Lihat outputnya pada CLI.
 
 7. CARA LAIN (TIDAK DISARANKAN)

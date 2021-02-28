@@ -14,7 +14,7 @@
 
 #########################    EKSEKUSI FILE EKSTERNAL     ###################################
 # buka file
-file_tucil = open("./test/test8.txt", "r")
+file_tucil = open("./test/test1.txt", "r")
 # baca isi file
 tucil = file_tucil.readlines()
 # mengetahui jumlah baris
